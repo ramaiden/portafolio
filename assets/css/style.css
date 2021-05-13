@@ -1,18 +1,27 @@
 body {
     font-family: sans-serif;
-    margin-top: 4.5rem;
+    margin-top: 2rem;
     font-family: 'Open Sans', sans-serif;
-    
+    font-size: 1.8rem;
 }
 
 #letra_logo {
     font-family: 'Oswald', Bold;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
-.textofoto {
+.padre {
     position: relative;
+    display: inline-block;
+}
 
+#content_div_one_photo {
+    border-radius: 10px;
+    border: 5px solid black;
+  }
 
-
+.textofoto {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
 }
