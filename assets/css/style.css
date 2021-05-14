@@ -1,27 +1,87 @@
-body {
-    font-family: sans-serif;
-    margin-top: 2rem;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
+/* comentario del navbar */
+
+nav {
+    background-color: #660066;
 }
 
-#letra_logo {
-    font-family: 'Oswald', Bold;
-    font-size: 1.5rem;
+.navbar-brand {
+    font-family: oswald;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 100px;
 }
 
-.padre {
-    position: relative;
-    display: inline-block;
+#hero-section {
+    /* height: 30vh; */
+    background-image: url(/assets/img/bg_hero.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
 }
 
-#content_div_one_photo {
-    border-radius: 10px;
-    border: 5px solid black;
-  }
+#textoFoto1 {
+    font-family: oswald;
+    font-weight: extraLigth;
+    font-size: 2em;
+}
 
-.textofoto {
-    position: absolute;
-    bottom: 0;
-    right: 1rem;
+#nvoLine {
+    width: 350px;
+    height: 5px;
+    color: white;
+}
+
+#textoFoto2 {
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#texto-cuerpo {
+    font-family: "Oswald";
+    font-weight: SemiBold;
+    font-size: 1.7em;
+    text-align: center;
+    letter-spacing: .4em;
+}
+
+#texto-cuerpo-columnas {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 3;
+    letter-spacing: .15em;
+}
+
+@media (max-width: 500px) {
+    #textoFoto1 {
+        font-family: oswald;
+        font-weight: extraLigth;
+        font-size: 1em;
+    }
+    #nvoLine {
+        width: 100px;
+        height: 5px;
+        color: white;
+    }
+    #textoFoto2 {
+        font-family: oswald;
+        font-weight: bold;
+        font-size: 1em;
+    }
+}
+
+/* mi experiencia */
+#experiencia {
+font-size: 3em;
+}
+
+#alex11 div:first-child{
+    color:red;
+    font-size: 0.9em;
+}
+
+#alex11 div:last-child{
+    color:blue;
+    font-size: 1.5em;
 }
