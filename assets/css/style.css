@@ -28,7 +28,8 @@ nav {
 #nvoLine {
     width: 350px;
     height: 5px;
-    color: white;
+    color: white solid;
+    background-color: white;
 }
 
 #textoFoto2 {
@@ -72,16 +73,35 @@ nav {
 }
 
 /* mi experiencia */
-#experiencia {
-font-size: 3em;
+
+#experiencia i {
+    color: #660066
 }
 
-#alex11 div:first-child{
-    color:red;
-    font-size: 0.9em;
+
+
+#experiencia div h1 {
+    font-size: 2em;
+    color: aqua;
 }
 
-#alex11 div:last-child{
-    color:blue;
-    font-size: 1.5em;
+#experiencia div:last-child article h4:first-child {
+    font-family: "Open Sans";
+    font-size: 0.2em;
+}
+
+#experiencia div:last-child article h4:last-child {
+    font-family: "Oswald";
+    font-size: 5em;
+    color: aqua;
+}
+
+#trabajos {
+background-color: #660066;
+border: white solid;
+color: white;
+}
+
+#trabajos div hr {
+    height: 20px;
 }
